@@ -4,7 +4,7 @@ import PageContainer from "@/components/PageContainer";
 import { faviconDescription, faviconTitle } from "@/constants/strings";
 import { generateFavicons } from "@/lib/utils";
 import { IResult } from "@/types";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const FaviconGenerator = () => {
   const [loading, setLoading] = useState(false);

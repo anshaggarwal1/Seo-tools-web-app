@@ -15,12 +15,6 @@ import {
   robotsHref,
   robotsLabel,
   robotsTitle,
-  schemaMarkupHref,
-  schemaMarkupLabel,
-  schemaMarkupTitle,
-  xmlSiteMapHref,
-  xmlSiteMapLabel,
-  xmlSiteMapTitle,
 } from "./strings";
 
 export const navItems: NavItem[] = [

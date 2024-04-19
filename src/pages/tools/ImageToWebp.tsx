@@ -4,7 +4,7 @@ import PageContainer from "@/components/PageContainer";
 import { imgToWebpDescription, imgToWebpTitle } from "@/constants/strings";
 import { convertImageToWebP } from "@/lib/utils";
 import { IResult } from "@/types";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const ImageToWebP = () => {
   const [loading, setLoading] = useState(false);

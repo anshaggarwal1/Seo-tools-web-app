@@ -58,7 +58,10 @@ const RobotsGenerator = () => {
     setRestricted(values);
   };
 
-  const handleChangeSiteMap = (idx: number, e: any) => {
+  const handleChangeSiteMap = (
+    idx: number,
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
     const values = [...restricted];
     values[idx].value = e.target.value;
     setRestricted(values);

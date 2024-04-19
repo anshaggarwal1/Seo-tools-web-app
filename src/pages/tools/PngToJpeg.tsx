@@ -4,7 +4,7 @@ import PageContainer from "@/components/PageContainer";
 import { pngToJpegDescription, pngToJpegTitle } from "@/constants/strings";
 import { convertPngToJpeg } from "@/lib/utils";
 import { IResult } from "@/types";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const PngToJpeg = () => {
   const [loading, setLoading] = useState(false);

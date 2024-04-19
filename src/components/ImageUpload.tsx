@@ -79,7 +79,7 @@ export default function ImageUpload({
     handleReset();
   };
 
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop });
+  const { getRootProps, getInputProps } = useDropzone({ onDrop });
 
   return (
     <Card className="my-6 max-w-4xl">

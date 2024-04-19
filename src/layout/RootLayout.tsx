@@ -1,6 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
 
 const RootLayout = () => {

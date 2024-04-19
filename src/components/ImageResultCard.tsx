@@ -1,8 +1,8 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Skeleton } from "./ui/skeleton";
 import { Button } from "./ui/button";
-import { Image, Loader2 } from "lucide-react";
+import { Image } from "lucide-react";
 
 type IResult = {
   original: string;
